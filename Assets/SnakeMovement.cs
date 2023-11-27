@@ -16,6 +16,9 @@ public class SnakeMovement : MonoBehaviour
     public bool snakeGenerated = false;
     public bool GameOver = false;
 
+    public GameObject UIpanel;
+    public GameObject gameoverpanel;
+
     private void Start()
     {
         StartCoroutine(moveCoroutine());
@@ -142,6 +145,8 @@ public class SnakeMovement : MonoBehaviour
     public void GameOverFunc()
     {
         GameOver = true;
+        UIpanel.SetActive(false);
+        gameoverpanel.SetActive(true);
         for(int i=0;i<bodySegments.Count;i++)
         {
             bodySegments[i].gameObject.GetComponent<MeshRenderer>().material.color = new Color(0, 0, 0);

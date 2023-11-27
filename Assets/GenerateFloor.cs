@@ -33,6 +33,7 @@ public class GenerateFloor : MonoBehaviour
 
         // Spawn border tiles with a height of 3 units
         SpawnBorderTiles(xOffset, yOffset);
+        DontDestroyOnLoad(this.gameObject);
     }
 
     void SpawnBorderTiles(int xOffset, int yOffset)
