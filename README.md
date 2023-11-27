@@ -1,5 +1,5 @@
 # 3D Snake Game Unity
- Welcome to the 3D version of the classic Snake game, developed using the Unity Game Engine. In this immersive experience:
+ Welcome to the 3D version of the classic Snake game, developed using the Unity Game Engine. Complete Project free to download and use. In this immersive experience:
 
 Grow Longer: Collect food scattered across the three-dimensional environment to increase the length of your snake.
 
